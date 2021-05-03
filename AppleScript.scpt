@@ -7,4 +7,6 @@ set kantenlaengeC to 5
 set Flaechenberechnung to kantenlaengeA * kantenlaengeB
 set Volumeberechnung to kantenlaengeA * kantenlaengeB * kantenlaengeC
 
-display dialog "Deine Fläche & Volume für deine angebenen Werte des Körpers beträgt:" & " " & "Fläche=" & Flaechenberechnung & " " & "Volume=" & Volumeberechnung 
+set Berechnung to "Deine Fläche & Volume für deine angebenen Werte des Körpers beträgt:" & " " & "Fläche=" & Flaechenberechnung & " " & "Volume=" & Volumeberechnung
+
+display dialog Berechnung buttons "OK"
