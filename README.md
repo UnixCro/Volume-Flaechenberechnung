@@ -9,3 +9,7 @@
 Code kopieren und in AppleScript einfügen. Nur noch die Werte modifizieren.
 <br>
 Danke an Dustinsupporter für die Idee
+
+Hinweis:
+
+Falls diese "Das Dokument „Rechner.scpt“ konnte nicht automatisch gesichert werden. (Fehler -1.752)" Meldung erscheint, drücken Sie SHIFT + CMD + S.
