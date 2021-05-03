@@ -1,4 +1,4 @@
-# Volume & Flaechenberechung
+# Volume & Flächenberechung
 
 Ganz einfache Volumen & Flächenberechnung über AppleScript.
 
