@@ -18,9 +18,9 @@ set cmB to "0" #b
 set cmC to "0" #c
 
 #Werte für MM #Ist Ihr Köper in mm? Berechnet Sie das F & V in cm
-set mmA to "0" #a
-set mmB to "0" #b
-set mmC to "0" #c
+set mmA to "5" #a
+set mmB to "5" #b
+set mmC to "5" #c
 
 
 
@@ -29,9 +29,9 @@ set mmC to "0" #c
 
 # KM -> CM
 
-set km2Acm to mA * 100 #1
-set km2Bcm to mB * 100 #1
-set km2Ccm to mC * 100
+set m2Acm to mA #1
+set m2Bcm to mB #1
+set m2Ccm to mC
 
 # CM -> CM
 
@@ -48,8 +48,8 @@ set mm2Ccm to mmC / 10 * 10
 
 #Hier wird das F & V berechnet.
 
-set A to km2Acm * km2Bcm & "cm²" as string #1 
-set B to km2Acm * km2Bcm * km2Ccm & "cm³" as string #1 
+set A to m2Acm * m2Bcm * 100 & "cm²" as string #1 
+set B to m2Acm * m2Bcm * m2Ccm * 100 & "cm³" as string #1 
 
 set C to cm2Acm * cm2Bcm & "cm²" as string #1 
 set D to cm2Acm * cm2Bcm * cm2Ccm & "cm³" as string #1 
@@ -57,7 +57,7 @@ set D to cm2Acm * cm2Bcm * cm2Ccm & "cm³" as string #1
 set E to mm2Acm * mm2Bcm / 10 & "cm²" as string #1 
 set F to mm2Acm * mm2Bcm * mm2Ccm / 10 & "cm³" as string #1 
 
-set mFlaecheundkmVolume to "mfläche=" & " " & A & " " & "kmvolume=" & " " & B & "   "
+set mFlaecheundkmVolume to "mfläche=" & " " & A & " " & "mvolume=" & " " & B & "   "
 set cmFlaecheundmVolume to "cmfläche=" & " " & C & "  " & "mvolume=" & " " & D
 set mmFlaecheundmmVolume to "mmfläche=" & " " & E & "  " & "mmvolume=" & " " & F
 
