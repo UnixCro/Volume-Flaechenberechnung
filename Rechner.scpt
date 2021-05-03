@@ -25,6 +25,8 @@ set mmC to "0" #c
 
 
 
+#Hier findet die Umwandlung statt.
+
 # KM -> CM
 
 set km2Acm to mA * 100 #1
@@ -43,6 +45,8 @@ set mm2Acm to mmA / 10 * 10 #3
 set mm2Bcm to mmB / 10 * 10 #3
 set mm2Ccm to mmC / 10 * 10
 
+
+#Hier wird das F & V berechnet.
 
 set A to km2Acm * km2Bcm & "cm²" as string #1 
 set B to km2Acm * km2Bcm * km2Ccm & "cm³" as string #1 
