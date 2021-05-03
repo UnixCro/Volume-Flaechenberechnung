@@ -9,3 +9,19 @@
 Code kopieren und in AppleScript einfügen. Nur noch die Werte modifizieren.
 
 Danke an Dustinsupporter für die Idee
+
+#Werte für M #Ist Ihr Köper in m? Berechnet Sie das F & V in cm
+set mA to "0" #a
+set mB to "0" #b
+set mC to "0" #c
+
+#Werte für CM  #Ist Ihr Köper in cm? Berechnet Sie das F & V in cm
+
+set cmA to "0" #a
+set cmB to "0" #b
+set cmC to "0" #c
+
+#Werte für MM #Ist Ihr Köper in mm? Berechnet Sie das F & V in cm
+set mmA to "0" #a
+set mmB to "0" #b
+set mmC to "0" #c
