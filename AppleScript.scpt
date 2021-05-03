@@ -5,14 +5,17 @@ set kantenlaengeA to 5
 set kantenlaengeB to 5
 set kantenlaengeC to 5
 
+#Einheit
+set Einheit to "cm"
+
 #Berechnung
 set Flaechenberechnung to kantenlaengeA * kantenlaengeB
 set Volumeberechnung to kantenlaengeA * kantenlaengeB * kantenlaengeC
-set FlaechenberechnungMitEinheiten to Volumeberechnung & "   " & "²"
-set VolumeberechnungMitEinheiten to Volumeberechnung & "   " & "³"
-set A to "Volume-Flaechenberechung (2D/3D Rechteck, Würfel)"
+set A to "Volume-Flaechenberechung (Rechteck, Quader)"
+
 
 #Antwort
-set Berechnung to "Deine Fläche & Volume für deine angebenen Werte des Körpers beträgt:" & " " & "Fläche=" & FlaechenberechnungMitEinheiten & "   " & "Volume=" & VolumeberechnungMitEinheiten
+set Berechnung to "Deine Fläche & Volume für deine angebenen Werte des Körpers beträgt:" & " " & "Fläche=" & Flaechenberechnung & " " & Einheit & "² " & "   " & "Volume=" & Volumeberechnung & " " & Einheit & "³"
+
 #Dialog
 display dialog Berechnung buttons "OK" with title A
