@@ -29,8 +29,8 @@ set mmC to "0" #c
 
 # KM -> CM
 
-set m2Acm to mA #1
-set m2Bcm to mB #1
+set m2Acm to mA 
+set m2Bcm to mB
 set m2Ccm to mC
 
 # CM -> CM
@@ -41,9 +41,9 @@ set cm2Ccm to cmC
 
 # MM -> CM 
 
-set mm2Acm to mmA / 10 * 10 #3
-set mm2Bcm to mmB / 10 * 10 #3
-set mm2Ccm to mmC / 10 * 10
+set mm2Acm to mmA 
+set mm2Bcm to mmB 
+set mm2Ccm to mmC 
 
 
 #Hier wird das F & V berechnet.
