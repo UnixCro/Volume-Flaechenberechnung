@@ -9,7 +9,7 @@
 Code kopieren und in AppleScript einfügen. Nur noch die Werte modifizieren.
 
 Danke an Dustinsupporter für die Idee
-
+<br><br><br><br><br>
 #Werte für M #Ist Ihr Köper in m? Berechnet Sie das F & V in cm
 set mA to "0" #a
 set mB to "0" #b
