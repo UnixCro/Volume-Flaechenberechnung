@@ -18,9 +18,9 @@ set cmB to "0" #b
 set cmC to "0" #c
 
 #Werte für MM #Ist Ihr Köper in mm? Berechnet Sie das F & V in cm
-set mmA to "5" #a
-set mmB to "5" #b
-set mmC to "5" #c
+set mmA to "0" #a
+set mmB to "0" #b
+set mmC to "0" #c
 
 
 
