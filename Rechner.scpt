@@ -1,4 +1,3 @@
-
 #Berechne die Fläche und das Volumen für die Körper Rechteck und Quader
 #Verändere die Werte dort wo "O" stehen.
 
@@ -25,11 +24,11 @@ set mmC to "0" #c
 
 
 
-#Hier findet die Umwandlung statt.
+#UMSCHREIBUNG
 
 # KM -> CM
 
-set m2Acm to mA 
+set m2Acm to mA
 set m2Bcm to mB
 set m2Ccm to mC
 
@@ -41,12 +40,12 @@ set cm2Ccm to cmC
 
 # MM -> CM 
 
-set mm2Acm to mmA 
-set mm2Bcm to mmB 
-set mm2Ccm to mmC 
+set mm2Acm to mmA
+set mm2Bcm to mmB
+set mm2Ccm to mmC
 
 
-#Hier wird das F & V berechnet.
+#Berechnung von F & V
 
 set A to m2Acm * m2Bcm * 100 & "cm²" as string #1 
 set B to m2Acm * m2Bcm * m2Ccm * 100 & "cm³" as string #1 
