@@ -61,4 +61,7 @@ set mFlaecheundkmVolume to "mfläche=" & " " & A & " " & "mvolume=" & " " & B & 
 set cmFlaecheundmVolume to "cmfläche=" & " " & C & "  " & "mvolume=" & " " & D
 set mmFlaecheundmmVolume to "mmfläche=" & " " & E & "  " & "mmvolume=" & " " & F
 
-display dialog mFlaecheundkmVolume & "                                       " & cmFlaecheundmVolume & "                                      " & mmFlaecheundmmVolume buttons {"OK"} with title "UnixCro Volume Flächenberechnung {Rechteck, Quader}"
+set AAA to mFlaecheundkmVolume & "                                       " & cmFlaecheundmVolume & "                                      " & mmFlaecheundmmVolume
+
+
+display dialog AAA buttons {"OK"} default button {"OK"} with title "UnixCro Volume Flächenberechnung {Rechteck, Quader}"
